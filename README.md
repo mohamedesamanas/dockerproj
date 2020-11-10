@@ -5,6 +5,7 @@ this is for a docker workflow
   
   
 Project Overview
+
 The project goal is to operationalize this working, machine learning microservice using kubernetes, which is an open-source system for automating the management of containerized applications.
 
 The project is a Python Flask application.
@@ -15,6 +16,7 @@ For Windows (use Git Bash): python -m venv .dockerproj then . .dockerproj/Script
 For Mac and Linux: python3 -m venv ~/.dockerproj then source ~/.dockerproj/bin/activate
 Run make install to install the necessary dependencies
 Running app.py
+
 Standalone: install dependencies with make install then python app.py
 Build and Run in Docker: ./run_docker.sh
 Publish image to Docker Hub: ./upload_docker.sh
